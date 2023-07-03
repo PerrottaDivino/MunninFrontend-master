@@ -8,6 +8,7 @@ const data = [
     { id: 2, name: "About", url: "/about" },
     { id: 3, name: "Store", subMenu: true },
     { id: 4, name: "Contact", url: "/contact" },
+    { id: 4, name: "Log-in", url: "/log" },
 ];
 
 const subMenuData = [
@@ -19,7 +20,7 @@ const subMenuData = [
 
 const Menu = ({showCatMenu, setShowCatMenu}) => {
   return (
-    <ul className='hidden md:flex items-center gap-8 font-medium text-black'>
+    <ul className='hidden md:flex items-center gap-8 font-medium text-black '>
         {data.map((item) => {
             return (
                 <React.Fragment key={item.id}>
@@ -32,11 +33,11 @@ const Menu = ({showCatMenu, setShowCatMenu}) => {
                             {item.name}
                             <BsChevronDown size={14} />
                             {showCatMenu && (
-                                <ul className='bg-white absolute top-6 left-0 min-w-[250px] px-1 py-1 text-black shadow-lg'>
+                                <ul className='bg-white absolute top-6 left-0 min-w-[250px] px-1 py-1 text-black   shadow-lg'>
                                     {subMenuData.map((submenu) => {
                                         return (
                                             <Link key={submenu.id} href="/" onClick={()=> setShowCatMenu(false)}>
-                                                    <li className='h-12 flex justify items-center px-3 hover:bg-black/[0.03] rounded-md'>
+                                                    <li className='h-12 flex justify items-center px-3 rounded-md hover:opacity-75'>
                                                         {submenu.name}
                                                         <span className='opacity-50 text-sm'>
                                                               - 63

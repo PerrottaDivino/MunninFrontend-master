@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import  Carousel  from 'react-multi-carousel';
 import "react-multi-carousel/lib/styles.css";
 import ProductCard from './ProductCard';
@@ -11,11 +11,11 @@ const RelatedProducts = () => {
         },
         tablet: {
             breakpoint: { max: 1023, min: 464 },
-            itens: 2,
+            items: 2,
         },
         mobile: {
             breakpoint: { max: 767, min: 0 },
-            itens: 1,
+            items: 1,
         },
     };
 
@@ -29,12 +29,6 @@ const RelatedProducts = () => {
                     <ProductCard/>
                     <ProductCard/>
                     <ProductCard/>
-                    <ProductCard/>
-                    <ProductCard/>
-                    <ProductCard/>
-                    <ProductCard/>
-                    <ProductCard/>
-                    <ProductCard/>  
                 </Carousel>
         </div>
     );

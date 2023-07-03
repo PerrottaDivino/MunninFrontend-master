@@ -1,4 +1,3 @@
-
 # Munnin | The Observed Knowledge
 Based on Muninn and Huginn ravens, who stay with odin looking every place everyday, munnin its a tech store exemple about as we can place security and automation in our lives.
 
