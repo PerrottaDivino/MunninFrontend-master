@@ -8,7 +8,7 @@ const data = [
     { id: 2, name: "About", url: "/about" },
     { id: 3, name: "Store", subMenu: true },
     { id: 4, name: "Contact", url: "/contact" },
-    { id: 4, name: "Log-in", url: "/log" },
+    { id: 4, name: "Log-in", url: "/login" },
 ];
 
 const subMenuData = [
@@ -50,8 +50,10 @@ const Menu = ({showCatMenu, setShowCatMenu}) => {
                             )}
                         </li>
                     ) : (
-                        <li className="cursor-pointer">
-                            <Link href={item?.url}>{item.name}</Link>                     
+                        <li className="cursor-pointer ">
+                            <Link href={item?.url}>
+                                {item.name}
+                            </Link>                     
                         </li>
                     )}
                 </React.Fragment>
