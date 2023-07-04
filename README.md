@@ -1,6 +1,10 @@
 # Munnin | The Observed Knowledge
 Based on Muninn and Huginn ravens, who stay with odin looking every place everyday, munnin its a tech store exemple about as we can place security and automation in our lives.
 
+<img src = "https://res.cloudinary.com/degisj994/image/upload/v1688440035/home01_tougtx.png">
+<img src = "https://res.cloudinary.com/degisj994/image/upload/v1688440035/home03_oypbbq.png">
+<img src = "https://res.cloudinary.com/degisj994/image/upload/v1688440035/home02_avumda.png">
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 Its a MVP challenge created at the purpose to see if its possible,move from react.js/carbon design/ node.js / Cloudant and create a new project from 0 to a full e-commerce with some tools in mind on less than a week:
