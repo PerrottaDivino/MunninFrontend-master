@@ -4,6 +4,13 @@ Based on Muninn and Huginn ravens, who stay with odin looking every place everyd
 <img src = "https://res.cloudinary.com/degisj994/image/upload/v1688440035/home01_tougtx.png">
 <img src = "https://res.cloudinary.com/degisj994/image/upload/v1688440035/home03_oypbbq.png">
 <img src = "https://res.cloudinary.com/degisj994/image/upload/v1688440035/home02_avumda.png">
+<img src = "https://res.cloudinary.com/degisj994/image/upload/v1688440571/imagem_2023-07-04_001609631_oh4isd.png">
+
+# Mobile
+<img src = "https://res.cloudinary.com/degisj994/image/upload/v1688440972/mobile02_rzaaik.png">
+<img src = "https://res.cloudinary.com/degisj994/image/upload/v1688440971/mobile01_x6urd3.png">
+<img src = "https://res.cloudinary.com/degisj994/image/upload/v1688440971/mobile03_qmomzs.png">
+<img src = "https://res.cloudinary.com/degisj994/image/upload/v1688440971/mobile04_qspovr.png">
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
